@@ -19,7 +19,17 @@
     width: 100%;
     left: 0;
     box-sizing: border-box;
-}
+    }
+
+    .footer_title {
+        font-size: 32px;
+    }
+
+    .footer_sub {
+        font-size: 14px;
+    }
+
+
 
 }
 
