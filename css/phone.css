@@ -1,3 +1,39 @@
 @media (max-width: 360px) {
+.btn_about {
+    width: 160px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
 
+.filter_btn {
+    width: 110px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.product_btn {
+    width: 32px;
+    height: 32px;
+}
+
+.product_btn img { width: 18px; }
+
+.btn_more {
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 13px;
+}
+
+.footer_btn {
+    font-size: 14px;
+    padding: 8px 18px;
+}
+
+/* --- ПОЛЯ ВВОДУ ФУТЕРА --- */
+.footer_input {
+    width: 220px;
+    max-width: 220px;
+}
 }
