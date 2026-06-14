@@ -1,3 +1,22 @@
+@media (max-width: 1220px) {
+ 
+    .block,
+    .about_section,
+    .gallery_section,
+    .products_section,
+    .tips_section,
+    .footer_top {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+ 
+    .container {
+        padding: 0 10px 0 10px;
+        box-sizing: border-box;
+    }
+}
+
 @media (max-width: 860px) {
     #scrollTop {
         display: none;
