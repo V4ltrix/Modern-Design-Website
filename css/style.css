@@ -315,7 +315,7 @@ h2 {
     box-shadow: 1px 0.5px 5px #585858;
 }
 
-.swiper-slide img {
+.mySwiper .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -385,7 +385,6 @@ h2 {
 }
 
 .product_card {
-    
     width: 200px;
     border: 1px solid rgba(255, 255, 255, 0.7);
     background: #fff;
@@ -472,7 +471,7 @@ h2 {
     box-shadow: none;
 }
 
-                            /* СКРІН 5 */
+/* СКРІН 5 */
 
 .tips_section {
     background-color: #ffffff;
@@ -517,9 +516,16 @@ h2 {
 .tips_img {
     width: 360px;
     height: 220px;
-    object-fit: cover;
-    display: block;
+    background-size: cover;
+    background-position: center;
 }
+
+.t1 { background-image: url(../images/image\ 81.png); }
+.t2 { background-image: url(../images/image\ 76.png); }
+.t3 { background-image: url(../images/image\ 75.png); }
+.t4 { background-image: url(../images/image\ 73.png); }
+.t5 { background-image: url(../images/image\ 71.png); }
+.t6 { background-image: url(../images/image\ 69.png); }
 
 .tips_name {
     font-family: "Montserrat Alternates", sans-serif;
@@ -545,7 +551,6 @@ h2 {
     height: 320px !important;
     border-radius: 12px;
 }
-
                             /* ФУТЕР */
 
 .footer_top {
@@ -717,7 +722,6 @@ h2 {
     padding: 14px 0;
     font-size: 10px;
 }
-
 
 section, .footer_top {
     opacity: 0;
