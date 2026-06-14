@@ -1,6 +1,5 @@
 @media (max-width: 1220px) {
  
-    .block,
     .about_section,
     .gallery_section,
     .products_section,
@@ -15,6 +14,13 @@
         padding: 0 10px 0 10px;
         box-sizing: border-box;
     }
+
+    .advantages {
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+}
+
 }
 
 @media (max-width: 860px) {
