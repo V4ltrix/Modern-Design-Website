@@ -1,18 +1,53 @@
 @media (max-width: 430px) {
-.advantage span {
-    font-size: 10px;
-    max-width: 70px;
-    text-align: center;
-    min-height: 28px;
+.block {
+    background: #FFF4EA;
+    height: 100vh;
+    max-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
-    .advantage img {
-        width: 28px;
+.block_content {
+    padding-top: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+}
+
+.block_sofa_mobile {
+filter: brightness(0.7) saturate(0.8) drop-shadow(0px 10px 20px rgba(0,0,0,0.5));    display: flex;
+    align-self: center;
+    width: 90%;
+    height: auto;
+    order: 2;
+}
+h1{
+    color: #555;
+    font-weight: 600;
+}
+
+h2{
+    color: #555;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.block_bg {
+    display: none;
+}
+
+    .advantages {
+        display: none;
     }
-    
+
+    .btn {
+        width: 180px;
+        height: 42px;
+    }
+
     .btn_about {
         width: 160px;
         height: 42px;
@@ -32,10 +67,11 @@
         padding: 0;
         font-size: 13px;
     }
-.footer_title {
-    font-size: 28px;
-    text-shadow: 0px 0px 4px #000000;
-    margin-bottom: 4px;
+
+    .footer_title {
+        font-size: 28px;
+        text-shadow: 0px 0px 4px #000000;
+        margin-bottom: 4px;
     }
 
     .tips_sub {
@@ -54,18 +90,68 @@
         padding-bottom: 8px;
     }
 
-    .product_btn {
-        width: 32px;
-        height: 32px;
+    .products_grid {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .product_btn img { width: 18px; }
+    .product_card {
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .product_img {
+        height: 280px;
+    }
+
+    .product_btn {
+        width: 48px;
+        height: 48px;
+    }
+
+    .product_btn img {
+        width: 26px;
+    }
+
+    .product_name {
+        font-size: 18px;
+    }
+
+    .product_material {
+        font-size: 15px;
+    }
+
+    .product_price {
+        font-size: 22px;
+    }
+
+.tips_img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+
+.tipsSwiper .swiper-slide {
+    height: auto !important;
+}
+
+    .tips_date {
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
 
     .btn_more {
-        width: 150px;
-        height: 38px;
+        width: 160px;
+        height: 42px;
         line-height: 38px;
         font-size: 13px;
+    }
+
+    .footer_title{
+        margin: 0;
+        padding-bottom: 10px;
     }
 
     .footer_btn {
@@ -78,8 +164,8 @@
         max-width: 220px;
     }
 
-    .social_icon img { 
-        width: 28px; 
-        height: 25px; 
+    .social_icon img {
+        width: 28px;
+        height: 25px;
     }
 }
