@@ -70,12 +70,12 @@ h2{
     background-clip: text; 
     
     -webkit-text-fill-color: transparent;
-    animation: luxuryOrangeFlow 4s ease-in-out infinite alternate;
+    animation: luxuryOrangeFlow 1.5s ease-in-out infinite alternate;
     filter: drop-shadow(0px 0px 4px rgba(248, 168, 68, 0.25));
 }
 
 .rating_stars::before {
-    content: "Рейтинг: 4.9 ";
+    content: "· Рейтинг: 4.9 ";
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 14px;
     font-weight: 600;
