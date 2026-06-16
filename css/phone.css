@@ -17,7 +17,7 @@
 }
 
 .block_sofa_mobile {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 filter: brightness(0.7) saturate(0.8) drop-shadow(0px 10px 20px rgba(0,0,0,0.5));    display: flex;
     align-self: center;
     width: 90%;
@@ -59,10 +59,42 @@ h2{
 }
 
 .rating_stars {
-    color: #F8A844;
-    font-size: 22px;
-    letter-spacing: 3px;
-    text-shadow: 0px 0px 8px rgba(248, 168, 68, 0.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: inline-block;
+    background: linear-gradient(90deg, #f8b35f 0%, #FFD08A 50%, #ee9b36 100%);
+    background-size: 200% auto;
+    
+    /* Додали стандартний рядок, тепер VS Code не буде ругатися */
+    -webkit-background-clip: text;
+    background-clip: text; 
+    
+    -webkit-text-fill-color: transparent;
+    animation: luxuryOrangeFlow 4s ease-in-out infinite alternate;
+    filter: drop-shadow(0px 0px 4px rgba(248, 168, 68, 0.25));
+}
+
+.rating_stars::before {
+    content: "Рейтинг: 4.9 ";
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+    /* Оці два рядки примусово вимикають прозорість для тексту */
+    color: #62462F; 
+    -webkit-text-fill-color: #62462F; 
+    
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+@keyframes luxuryOrangeFlow {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 100% center;
+    }
 }
 
 .rating_text {
