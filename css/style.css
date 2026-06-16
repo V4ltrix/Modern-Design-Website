@@ -27,6 +27,11 @@ body {
     display: none;
 }
 
+.mobile_rating,
+.mobile_promo {
+    display: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
